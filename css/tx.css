@@ -1,0 +1,63 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body { width: 100%; height: 100%; }
+
+header { width: 100%; height: 44px; background-color: #0dc441; }
+
+.box { width: 100%; height: 100%; display: flex; flex-direction: column; }
+
+section { flex: 1; width: 100%; height: 100%; overflow: auto; }
+
+footer { width: 100%; height: 44px; background-color: #fff; text-align: center; }
+
+ul { list-style: none; }
+
+nav { height: 35px; background-color: #fff; }
+
+nav ul { display: flex; }
+
+nav ul li { flex: 1; text-align: center; line-height: 35px; }
+
+nav ul li:nth-child(1) { border-bottom: solid 2px #0dc441; color: #0dc441; }
+
+header ul { display: flex; width: 100%; justify-content: space-between; line-height: 44px; padding: 0 10px; }
+
+header ul li:nth-child(1) { color: rgba(255, 255, 255, 0.5); }
+
+header ul li:nth-child(3) { color: rgba(255, 255, 255, 0.5); }
+
+header ul li:nth-child(2) { display: inline-flex; align-items: center; }
+
+header ul li:nth-child(2) span:nth-child(1) { color: white; background-color: #0ad985; }
+
+header ul li:nth-child(2) span { height: 25px; width: 59px; font-size: 14px; line-height: 25px; text-align: center; color: rgba(255, 255, 255, 0.5); background-color: rgba(10, 217, 133, 0.5); }
+
+header ul li:nth-child(2) span:nth-child(1) { border-radius: 10px 0 0 10px; }
+
+header ul li:nth-child(2) span:nth-child(2) { border-radius: 0 10px 10px 0; }
+
+section ul { display: flex; flex-wrap: wrap; align-content: flex-start; }
+
+section ul li img { width: 100%; }
+
+section ul li { width: 50%; display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 4px; padding: 0 4px; }
+
+section ul li b { font-style: normal; }
+
+footer ul { height: 100%; display: flex; border-top: solid 1px #ced6cf; }
+
+footer ul li { flex: 1; display: flex; flex-direction: column; color: #d6d6d6; }
+
+footer ul li:nth-child(3) { position: relative; }
+
+footer ul li:nth-child(3) i { position: absolute; left: 50%; transform: translate(-50%); top: -6px; width: 50px; height: 50px; background-color: #fff; border-radius: 50%; border: solid 1px #ced6cf; text-align: center; line-height: 48px; font-size: 34px; }
+
+footer ul li i { font-size: 24px; line-height: 24px; color: #d6d6d6; }
+
+footer ul li b { font-size: 12px; line-height: 12px; font-weight: normal; }
+
+footer ul li:nth-child(1), footer ul li:nth-child(1) i { color: #0dc441; }
+
+.iconfont { font-family: "iconfont" !important; font-size: 20px; font-style: normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale; }
+
+/*# sourceMappingURL=tx.css.map */

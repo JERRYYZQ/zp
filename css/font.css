@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: iconfont;
+    src: url("../font/iconfont.woff") format("woff"),
+     url("../font/iconfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: iconfont;
+    src: url("../font/iconfont-menu.woff") format("woff"),
+     url("../font/iconfont-menu.ttf") format("truetype");
+}
